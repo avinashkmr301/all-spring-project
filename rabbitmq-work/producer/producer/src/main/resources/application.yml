@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: producer
+  rabbitmq:
+    addresses: "localhost:5672"
+    username: guest
+    password: guest

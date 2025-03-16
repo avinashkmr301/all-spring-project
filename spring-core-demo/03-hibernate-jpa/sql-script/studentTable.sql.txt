@@ -1,0 +1,11 @@
+CREATE TABLE public.student
+(
+    id bigserial NOT NULL,
+    first_name character varying(45),
+    last_name character varying(45),
+    email character varying(45),
+    PRIMARY KEY (id)
+);
+
+ALTER TABLE IF EXISTS public.student
+    OWNER to springstudent;
